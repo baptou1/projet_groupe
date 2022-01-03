@@ -1,9 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header_section1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding:30px;
+}
+
+
 .logo + ul{
- display:flex;
+    display:flex;
 }
 ul{
     display:flex;
     list-style-type:none;
+    align-items:center ;
 }
 li a{
     display:flex;
@@ -12,9 +27,23 @@ li a{
     text-decoration: none;
     color:#000;
 }
+.nav-menu{
+    display:flex;
+
+}
+.nav-menu .btn{
+    margin-left: 20px;
+
+}
 .btn{
     text-decoration:none;
     color:#fff;
     background-color:#000;
     padding:15px;
+    display:block;
+}
+.w33{
+    display:flex;
+    flex-wrap:wrap;
+    width:33%;
 }
