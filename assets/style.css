@@ -1,6 +1,14 @@
-.logo{
- padding:1000px;
+.logo + ul{
+ display:flex;
 }
-li{
+ul{
     display:flex;
+    list-style-type:none;
+}
+li a{
+    display:flex;
+    list-style-type:none;
+    padding:0px 10px;
+    text-decoration: none;
+    color:#000;
 }
