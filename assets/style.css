@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif
 }
+a{
+    text-decoration: none;
+    color:#000;
+}
 ul{
     list-style-type:none;
 }
@@ -67,7 +71,5 @@ li a{
     display:block;
 }
 .w33{
-    display:flex;
-    flex-wrap:wrap;
     width:33%;
 }
