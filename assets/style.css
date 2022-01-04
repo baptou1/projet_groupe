@@ -6,8 +6,8 @@
 }
 
 :root{
-    --w33: width:33%;
-    --w25: width:20%;
+    --w33: 33%;
+    --w25: 20%;
 
     --color_black:#1b1b1b;
     --color_faded_black:#181818;
