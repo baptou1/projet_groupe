@@ -40,7 +40,7 @@ header .nav ul{
     padding: 10px;
 }
 .nav li.btn{
-margin-left: 20px;
+    margin-left: 20px;
 }
 .btn{
     background-color: var(--color_black);
@@ -90,11 +90,11 @@ li a{
     list-style-type:none;
     padding:0px 10px;
     text-decoration: none;
-    color:var(--color_white);
+    color:var(--color_black);
 }
 .nav-menu{
     display:flex;
-
+    
 }
 .nav-menu .btn{
     margin-left: 20px;
@@ -109,7 +109,7 @@ li a{
 }
 .w33{
     display:flex;
-    width:33%;
+    width:var(--w33);
 }
 #premier_plan{
     background-color:#2c2c2c;
@@ -188,6 +188,11 @@ border: 2px solid #fff;
   }
 /***************** première section *****/
 
+#premier_plan{
+    background-color:#2c2c2c;
+    position: relative;
+    
+}
 .pic_center img{
     width: 33%;
 }
