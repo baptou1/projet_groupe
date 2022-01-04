@@ -111,6 +111,68 @@ li a{
     display:flex;
     width:33%;
 }
+/* INVESTOR */
+#investor{
+    padding: 15px;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#investor article{
+    display:flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.6);
+  transition:all .3s;
+  position:relative;
+  width: 20vw /* var(--w25) */;
+  border-radius: 15px 15px 0 0;
+}
+#investor article>figure>img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  #investor .infos_invest{
+    background-color: #fff;
+  }
+  #investor .infos{
+      display:flex;
+      justify-content: space-between;
+      padding: 25px 15px;
+      position: relative;
+  }
+  #investor .photo{
+    position: absolute;
+    z-index: 10;
+    top: 0%;
+    transform: translateY(-50%);
+    left: 10%;
+  }
+  #investor .photo img{
+border-radius: 50%;
+border: 2px solid #fff;
+  }
+  #investor .logo_reseaux{
+      width: 30px;
+      height: 30px;
+      text-align: center;
+  }
+  .invest_plus{
+      width: 100%;
+  }
+  .invest_plus p{
+      font-size: 0;
+      color: gray;
+  }
+  #investor article:hover .invest_plus p {
+    padding: 10px 15px;
+  }
+  #investor article:hover .invest_plus p {
+    font-size:1rem;
+    transition:all 0.3s;
+  }
 /***************** première section *****/
 
 .pic_center img{
