@@ -3,7 +3,36 @@
     margin:0;
     box-sizing: border-box;
 }
-
+ul{
+    list-style-type:none;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+header .nav ul{
+   display: flex;
+   justify-content: space-between;
+}
+.nav li {
+   padding: 0 10px;
+}
+.nav li a{
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+}
+.nav li.btn{
+margin-left: 20px;
+}
+.btn{
+   background-color: black;
+}
+.btn a{
+   color: white;
+}
 .header_section1{
     display:flex;
     flex-wrap:wrap;
