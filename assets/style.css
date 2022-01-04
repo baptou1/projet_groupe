@@ -130,12 +130,12 @@ li a{
 }
 #investor article{
     display:flex;
-  flex-direction: column;
-  box-shadow: 5px 5px 15px rgba(0,0,0,.6);
-  transition:all .3s;
-  position:relative;
-  width: 20vw /* var(--w25) */;
-  border-radius: 15px 15px 0 0;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.6);
+    transition:all .3s;
+    position:relative;
+    width: 20vw /* var(--w25) */;
+    border-radius: 15px 15px 0 0;
 }
 #investor article>figure>img {
     width:100%;
