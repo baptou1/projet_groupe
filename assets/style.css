@@ -2,9 +2,51 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+:root{
+    --w33: 33%;
+    --w25: 20%;
+
+    --color_black:#1b1b1b;
+    --color_faded_black:#181818;
+    --color_faded_gold:#b5a278;
+    --color_white:#fff;
+}
+a{
+    text-decoration: none;
+    color: var(--color_black);
 }
 ul{
     list-style-type:none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+header .nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav li {
+    padding: 0 10px;
+}
+.nav li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.nav li.btn{
+margin-left: 20px;
+}
+.btn{
+    background-color: var(--color_black);
+}
+.btn a{
+    color: var(--color_white);
 }
 header{
    display: flex;
@@ -48,7 +90,7 @@ li a{
     list-style-type:none;
     padding:0px 10px;
     text-decoration: none;
-    color:#000;
+    color:var(--color_white);
 }
 .nav-menu{
     display:flex;
@@ -60,76 +102,17 @@ li a{
 }
 .btn{
     text-decoration:none;
-    color:#fff;
-    background-color:#000;
+    color:var(--color_white);
+    background-color:var(--color_black);
     padding:15px;
     display:block;
 }
 .w33{
     display:flex;
-    flex-wrap:wrap;
     width:33%;
 }
-/* INVESTOR */
-#investor{
-    padding: 15px;
-    background-color: cadetblue;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/***************** première section *****/
+
+.pic_center img{
+    width: 33%;
 }
-#investor article{
-    display:flex;
-  flex-direction: column;
-  box-shadow: 5px 5px 15px rgba(0,0,0,.6);
-  transition:all .3s;
-  position:relative;
-  width: 20vw /* var(--w25) */;
-  border-radius: 15px 15px 0 0;
-}
-#investor article>figure>img {
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    border-radius: 15px 15px 0 0;
-  }
-  #investor .infos_invest{
-    background-color: #fff;
-  }
-  #investor .infos{
-      display:flex;
-      justify-content: space-between;
-      padding: 25px 15px;
-      position: relative;
-  }
-  #investor .photo{
-    position: absolute;
-    z-index: 10;
-    top: 0%;
-    transform: translateY(-50%);
-    left: 10%;
-  }
-  #investor .photo img{
-border-radius: 50%;
-border: 2px solid #fff;
-  }
-  #investor .logo_reseaux{
-      width: 30px;
-      height: 30px;
-      text-align: center;
-  }
-  .invest_plus{
-      width: 100%;
-  }
-  .invest_plus p{
-      font-size: 0;
-      color: gray;
-  }
-  #investor article:hover .invest_plus p {
-    padding: 10px 15px;
-  }
-  #investor article:hover .invest_plus p {
-    font-size:1rem;
-    transition:all 0.3s;
-  }
-  /* Fin investor */
