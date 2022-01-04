@@ -127,6 +127,7 @@ li a{
     position: absolute;
     bottom:0;
     right: -10%;
+    width: 100vw;
 }
 #investor article{
     display:flex;
@@ -145,13 +146,17 @@ li a{
   }
   #investor .infos_invest{
     background-color: #fff;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
   }
-  #investor .infos{
-      display:flex;
-      justify-content: space-between;
-      padding: 25px 15px;
-      position: relative;
-  }
+#investor .infos{
+    display:flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+    position: relative;
+}
   #investor .photo{
     position: absolute;
     z-index: 10;
@@ -164,9 +169,9 @@ border-radius: 50%;
 border: 2px solid #fff;
   }
   #investor .logo_reseaux{
-      width: 30px;
-      height: 30px;
-      text-align: center;
+    width: 30px;
+    height: 30px;
+    text-align: center;
   }
   .invest_plus{
       width: 100%;
