@@ -70,16 +70,32 @@ li a{
     flex-wrap:wrap;
     width:33%;
 }
-/*************début page2***************/
+
+/************** DÉBUT PAGE 2 *************/
 
 .img{
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 100px;
+}
+
+/********* 2eme image (impaire) **********/
+.img:nth-child(odd) figure {
+    margin-bottom: 70px
+}
+
+/********* 1er et 2eme image (paire) *****/
+.img:nth-child(even) figure {
+    margin-bottom: 30px
+}
+
+.text{
+    width: 50%;
 }
 
 .title{
-    width: 50%;
-    padding-top: 180px
+    font-weight: 300;
 }
 
 .sub_title{
@@ -87,3 +103,6 @@ li a{
     padding-bottom: 15px;
 }
 
+.first_text{
+    padding-bottom: 30px;
+}
