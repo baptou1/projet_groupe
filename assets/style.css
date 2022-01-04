@@ -71,3 +71,19 @@ li a{
     width:33%;
 }
 /*************début page2***************/
+
+.img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    width: 50%;
+    padding-top: 180px
+}
+
+.sub_title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
