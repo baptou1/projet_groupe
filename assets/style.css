@@ -70,3 +70,23 @@ li a{
     flex-wrap:wrap;
     width:33%;
 }
+/* INVESTOR */
+#investor{
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#investor article{
+    border-radius: 15px;
+    display:flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.6);
+  transition:all .3s;
+  position:relative;
+}
+#investor article>figure>img {
+    width:100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
