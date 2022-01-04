@@ -121,10 +121,12 @@ li a{
 /* INVESTOR */
 #investor{
     padding: 15px;
-    background-color: cadetblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: absolute;
+    bottom:0;
+    right: -10%;
 }
 #investor article{
     display:flex;
